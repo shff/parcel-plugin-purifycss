@@ -1,0 +1,30 @@
+{
+  "name": "parcel-plugin-purifycss",
+  "version": "1.0.0",
+  "description": "PurifyCSS plugin for Parcel",
+  "main": "index.js",
+  "repository": "https://github.com/shff/parcel-plugin-purifycss",
+  "author": "Silvio Henrique Ferreira <shferreira@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "purifycss": "^1.2.6"
+  },
+  "peerDependencies": {
+    "parcel-bundler": "^1.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shff/parcel-plugin-purifycss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shff/parcel-plugin-purifycss/issues"
+  },
+  "homepage": "https://github.com/shff/parcel-plugin-purifycss#readme",
+  "keywords": [
+    "parcel",
+    "parcel-plugin",
+    "plugin",
+    "css",
+    "purifycss"
+  ]
+}
