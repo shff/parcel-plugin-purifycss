@@ -5,7 +5,7 @@ class PurifiedCssAsset extends CSSAsset {
   async load() {
     const extensions = [ "html", "js", "jsx", "vue" ];
     const content = extensions.map(ext => `${ this.options.rootDir }/**/*.${ ext }`);
-    let source = await super.load();
+    const source = await super.load();
     return await new Promise(r => purify(content, source, r));
   }
 }
