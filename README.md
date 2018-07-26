@@ -26,6 +26,10 @@ or
 npm install parcel-plugin-purifycss
 ```
 
+## Issues
+
+This plugin will look for files in your project folder with the following extensions: `html`, `js`, `jsx`, `vue` and `svelte`. Those extensions are hard-coded at the moment, but will change in the future.
+
 ## License
 
 ```
