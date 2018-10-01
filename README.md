@@ -1,4 +1,4 @@
-# parcel-plugin-inliner
+# parcel-plugin-purifycss
 
 A Parcel plugin to remove unused rules from your bundled CSS files.
 
