@@ -1,6 +1,6 @@
 # parcel-plugin-purifycss
 
-A Parcel plugin to remove unused rules from your bundled CSS files.
+A Parcel plugin to remove unused rules from your bundled CSS files in production builds.
 
 ## How it works
 
@@ -13,6 +13,8 @@ This is very useful if you're using a full-featured CSS framework like Bootstrap
 ## Usage
 
 Just install the plugin as a dependency using yarn or npm and build normally with Parcel. There are no configuration options.
+
+The plugin only applies its changes to production builds. In development mode it is skipped to allow a greater speed of development.
 
 ## Installation
 
