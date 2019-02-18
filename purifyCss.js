@@ -1,4 +1,10 @@
-const CSSAsset = require("parcel-bundler/src/assets/CSSAsset");
+const CSSAsset = (function() {
+  try {
+    return require("parcel/src/assets/CSSAsset");
+  } catch (e) {
+    return require("parcel-bundler/src/assets/CSSAsset");
+  }
+})();
 const purify = require("purifycss")
 
 class PurifiedCssAsset extends CSSAsset {
