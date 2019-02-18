@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-purifycss",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "PurifyCSS plugin for Parcel",
   "main": "index.js",
   "repository": "https://github.com/shff/parcel-plugin-purifycss",
@@ -10,7 +10,7 @@
     "purifycss": "^1.2.6"
   },
   "peerDependencies": {
-    "parcel-bundler": "^1.9.4"
+    "parcel": "^1.9.4"
   },
   "repository": {
     "type": "git",
