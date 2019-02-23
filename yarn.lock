@@ -320,9 +320,10 @@ pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
-purifycss@^1.2.6:
+purify-css@^1.2.6:
   version "1.2.6"
-  resolved "https://registry.yarnpkg.com/purifycss/-/purifycss-1.2.6.tgz#6e27ecd1d4fcf7352e19e176ce129a1562a7545d"
+  resolved "https://registry.yarnpkg.com/purify-css/-/purify-css-1.2.6.tgz#56c2b58e4e1134247c6fdc20ba443b51b45e8b2f"
+  integrity sha512-FuK4G3s98k+nHJGgheSL6/4gbvc5DeM7IyxI0lW+jvAd6pRRAM5etRtBlPrrPdbJt2iO9kLt/+AGoJ6foJM23A==
   dependencies:
     clean-css "^4.0.12"
     glob "^7.1.1"

@@ -5,7 +5,8 @@ const CSSAsset = (function() {
     return require("parcel-bundler/src/assets/CSSAsset");
   }
 })();
-const purify = require("purifycss")
+
+const purify = require("purify-css");
 
 class PurifiedCssAsset extends CSSAsset {
   async load() {
