@@ -1,3 +1,5 @@
+**Notice:** I built a PostCSS plugin that does the exact same thing but has more configurations, that might be more appropriate than a Parcel plugin. It doesn't depend on PurifyCSS, but it works in a similar way. Check it out at [/shff/postcss-remove-unused-css](http://github.com/shff/postcss-remove-unused-css)
+
 # parcel-plugin-purifycss
 
 A Parcel plugin to remove unused rules from your bundled CSS files in production builds.
